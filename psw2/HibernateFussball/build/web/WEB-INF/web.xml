@@ -4,9 +4,25 @@
         <servlet-name>AdicionarUsuario</servlet-name>
         <servlet-class>AdicionarUsuario</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>BuscarUsuario</servlet-name>
+        <servlet-class>BuscarUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuscarPorLogin</servlet-name>
+        <servlet-class>BuscarPorLogin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AdicionarUsuario</servlet-name>
         <url-pattern>/AdicionarUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscarUsuario</servlet-name>
+        <url-pattern>/BuscarUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscarPorLogin</servlet-name>
+        <url-pattern>/BuscarPorLogin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
